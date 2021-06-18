@@ -9,7 +9,7 @@ export default class Cell extends Component {
     }
   }
 
-  const handleClick = () => {
+   handleClick = () => {
     this.setState({
       color: '#333'
     })
